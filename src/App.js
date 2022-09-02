@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import HomeContainer from './Containers/HomeContainer';
-
+import HeaderContainer from './Containers/HeaderContainer';
 
 
 
@@ -14,6 +14,7 @@ function App() {
         <button onClick={()=> setFlag(!flag)}>Toggle class component</button>
        </div> 
        {flag ? <CComponent/> : ""} */}
+       <HeaderContainer/>
         <HomeContainer/>
       </div>
     );

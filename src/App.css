@@ -35,6 +35,11 @@
   border-radius: 4px;
   color: #fff;
   box-shadow: #333 0px 1px 5px;
+  cursor: pointer;
+}
+.btn-remove{
+  margin-top: 8px;
+  cursor: pointer;
 }
 
 .img-wrapper img{
@@ -54,12 +59,24 @@
 }
 
 .add-to-cart img{
-  width: 100px;
+  width: 175px;
   position: absolute;
-  right: 5%;
-  top: 5%;
+  right: 1%;
+  top: 1%;
   cursor: pointer;
 }
+.cart-count{
+  position: absolute;
+    right: 30px;
+    top: 35px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    z-index: 1;
+    width: 24px;
+}
+
 
 /*  */
 
